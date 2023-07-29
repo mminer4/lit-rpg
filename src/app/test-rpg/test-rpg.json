@@ -1,0 +1,32 @@
+{
+    "name": "Test RPG",
+    "pages": [
+        {
+            "page": 1,
+            "title": "The First Page",
+            "text": "You find yourself in a tunnel that ends in an intersection. You can either go right or left. Which way do you go?",
+            "choices": [
+                {
+                    "text": "go left",
+                    "modifier": "none",
+                    "action": "go to page 2"
+                },
+                {
+                    "text": "go right",
+                    "modifier": "none",
+                    "action": "go to page 3"
+                }
+            ]
+        },
+        {
+            "page": 2,
+            "title": "none",
+            "text": "The left branch of the tunnel ends in a solid wall."
+        },
+        {
+            "page": 3,
+            "title": "none",
+            "text": "You take the right branch of the tunnel. The ground opens up beneath you and you fall into a pit of spikes. RIP."
+        }
+    ]
+}
