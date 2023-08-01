@@ -17,11 +17,23 @@ export default ({ params: { pageId } }: { params: { pageId: string } }) => {
     notFound();
   }
 
+  const { title, text, choices } = pageData ?? {};
+
   return (
-    <div>
+    <>
       <Link href="/">Home</Link>
-      <h1>{pageData.title}</h1>
-      <h2>{pageData.text}</h2>
-    </div>
+      <h1>{title}</h1>
+      <h2>{text}</h2>
+      <div>
+        {choices &&
+          choices.map(({ text, modifier, action }) => {
+            return (
+              <div>
+                {text} - {modifier} - {action}
+              </div>
+            );
+          })}
+      </div>
+    </>
   );
 };

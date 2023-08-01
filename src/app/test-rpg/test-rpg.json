@@ -21,12 +21,14 @@
         {
             "page": 2,
             "title": "none",
-            "text": "The left branch of the tunnel ends in a solid wall."
+            "text": "The left branch of the tunnel ends in a solid wall.",
+            "choices": null
         },
         {
             "page": 3,
             "title": "none",
-            "text": "You take the right branch of the tunnel. The ground opens up beneath you and you fall into a pit of spikes. RIP."
+            "text": "You take the right branch of the tunnel. The ground opens up beneath you and you fall into a pit of spikes. RIP.",
+            "choices": null
         }
     ]
 }
