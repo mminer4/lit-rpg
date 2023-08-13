@@ -20,7 +20,7 @@ export default ({ params: { pageId } }: { params: { pageId: string } }) => {
   const { title, text, choices } = pageData ?? {};
 
   return (
-    <>
+    <div className="max-w-l">
       <Link href="/">Home</Link>
       <h1>{title}</h1>
       <h2>{text}</h2>
@@ -34,6 +34,6 @@ export default ({ params: { pageId } }: { params: { pageId: string } }) => {
             );
           })}
       </div>
-    </>
+    </div>
   );
 };
